@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right,gray, white);
+    text-align: center;
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+}
+
+img {
+    width: 200px;
+    text-align: none;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 220px;
+    margin-top: -190px;
+    
+}
+
+.repos-info{
+    font-size: 20px;
+    margin-left: 210px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    margin-top: 70px;
+    font-size: 17px;
+    display: inline-block;
+    border-style:outset;
+    border-color: black;
+    
+}
+
+button:hover {
+    background-color: gray;
+}
+
+li {
+    list-style: none;
+}
